@@ -1,0 +1,118 @@
+header {
+  padding: 0;
+  color: rgb#0001AB;
+  text-align: center;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin-bottom: 0px !important;
+  }
+  p {
+    margin: 8px 0px !important;
+  }
+}
+.logo {
+  width: 200px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #0001ab;
+}
+.audio {
+  padding-top: 8px;
+  justify-content: center;
+  display: flex;
+}
+
+.container,
+.containergallery {
+  display: flex;
+  max-width: 1500px;
+  min-height: 100px;
+  background-color: #0001ab;
+  border-radius: 8px;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+.containergallery {
+  display: inline-table !important;
+  text-align: center;
+  color: rgb();
+  justify-content: center;
+}
+.photos {
+  img {
+    width: 18%;
+  }
+}
+footer {
+  background-color: #0001ab;
+  text-align: center;
+  color: white;
+}
+
+.info {
+  text-align: center;
+}
+.logo2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.arcana {
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  width: 150px;
+  transform: rotate(-30deg);
+}
+
+.code {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+}
+
+.picture1 {
+  width: 300px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.gytis {
+  text-align: center;
+  font-size: 40px;
+}
+
+.quote {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium";
+}
+
+.screen {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  width: 400px;
+}
+
+.butterflies {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+
+.chidori {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+  width: 200px;
+}

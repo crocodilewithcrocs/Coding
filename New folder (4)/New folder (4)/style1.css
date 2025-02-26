@@ -1,0 +1,99 @@
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px; 
+    flex-direction: column;
+    align-items: center;
+        h1 {
+          margin-bottom: 0px !important;
+        }
+        p{
+          margin: 8px 0px !important;
+        }
+}
+.logo{
+    width:200px;
+
+}
+body {
+    font-family: 'Palatino' ;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  
+}
+.audio{
+    padding-top:8px;
+    justify-content: center;
+    display: flex;
+}
+
+.container, .containergallery{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    max-width: 1500px;
+    min-height: 100px;
+    color:white;
+    border-radius:8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding-bottom: 30px;
+}
+.containergallery {
+    display:inline-table !important;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+.photos{
+    img {
+        width: 18%;
+    }
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
+
+.info{
+    text-align: center;
+}
+.logo2{
+ position: absolute;  
+ right:10px;
+ top:10px;
+
+}
+
+.blood{
+    position: absolute;
+    left: 200px;
+    top:260px;
+    width: 200px;
+}
+
+.code{
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 400px;
+}
+
+.picture1{
+    width:300px;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.titas{
+    text-align: center;
+    font-size: 40px;
+}
+
+.text2{
+    font-size: 20px;
+}

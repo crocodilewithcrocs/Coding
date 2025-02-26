@@ -1,0 +1,96 @@
+header {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin-bottom: 0px !important;
+  }
+  p {
+    margin: 8px 0px !important;
+  }
+}
+.logo {
+  width: 200px;
+}
+body {
+  font-family: "Palatino";
+  margin: 0;
+  padding: 0;
+  background-color: #e3b38c;
+}
+.audio {
+  padding-top: 8px;
+  justify-content: center;
+  display: flex;
+}
+
+.container,
+.containergallery {
+  display: flex;
+  max-width: 1500px;
+  min-height: 100px;
+  color: (100, 47, 0);
+  background-color: #f8e3d2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding-bottom: 30px;
+}
+.containergallery {
+  display: inline-table !important;
+  text-align: center;
+  color: rgb();
+  justify-content: center;
+}
+.photos {
+  img {
+    width: 18%;
+  }
+}
+footer {
+  background-color: #f8e3d2;
+  text-align: center;
+  color: white;
+}
+
+.info {
+  text-align: center;
+}
+.logo2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.money {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  width: 10px;
+}
+
+.code {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+}
+
+.picture1 {
+  width: 300px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.nojus {
+  text-align: center;
+  font-size: 40px;
+}
+
+.text2 {
+  font-size: 20px;
+}
